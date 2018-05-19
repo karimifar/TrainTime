@@ -1,0 +1,96 @@
+/* #99B2DD
+#3A405A */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #3A405A
+}
+body{
+    background: #F3F3F3;
+}
+.container{
+    margin-top:5%;
+}
+
+.bold-td{
+    font-weight: 400;
+}
+
+th{
+    font-weight: 700;
+    color: white;
+    background-color: #3A405A;
+}
+.inputs{
+    margin-bottom: 15px;
+    margin-top:0;
+    border-radius:;
+    width: 90%;
+    color: #C33C54;
+    padding: 5px 10px;
+    outline: 0 none;
+}
+
+.inputs:focus{
+    border-color: #C33C54;
+    box-shadow: 0 0px 1px #C33C54;
+    outline: 0 none;
+}
+
+label{
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 20px;
+}
+.inst{
+    font-size:14px;
+}
+
+.headline{
+    margin-bottom: 30px;
+}
+.description {
+    font-size: 20px;
+}
+
+h1{
+    font-weight: 300;
+    line-height: 1.05em;
+    color: #C33C54;
+}
+
+.btn{
+    background: white;
+    border-color: #3A405A;
+}
+.btn:hover{
+    background: #3A405A;
+    border-color: #3A405A;
+    color: white;
+
+}
+
+#myModal{
+    top:30%;
+}
+
+.modal-content{
+    padding: 30px;
+}
+
+#close-modal{
+    width:20%;
+    margin: 20px 40% 0; 
+}
+
+#table{
+    margin-top:30px;
+}
+
+#table tr:nth-child(odd){background-color: #EDEDF0;}
+
+.arrive{
+    color: #C33C54;
+}
